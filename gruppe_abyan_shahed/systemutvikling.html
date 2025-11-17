@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Systemutvilking metoder </title>
+    <style>
+        body { font-family: Arial, sans-serif; background: #eef2f5; margin: 0; }
+        header { background: #4e73df; color: #fff; text-align: center; padding: 40px 20px; }
+        main { max-width: 900px; margin: 30px auto; padding: 0 20px; }
+        section { background: #fff; padding: 20px; border-radius: 10px; margin-bottom: 20px; }
+        h2 { color: #4e73df; }
+        .toggle-button { background: #1cc88a; color: #fff; border: none; padding: 8px 15px; border-radius: 6px; cursor: pointer; }
+        .toggle-content { display: none; margin-top: 10px; }
+        table { width: 100%; border-collapse: collapse; margin-top: 15px; }
+        th, td { border: 1px solid #ccc; padding: 10px; text-align: left; }
+        th { background: #4e73df; color: white; }
+        tr:nth-child(even) { background: #f7f9fc; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Systemutvilking metoder</h1>
+        <p>Fleksibel systemutvikling med samarbeid og forbedring</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>Hva er systemutviklingemtoder?</h2>
+            <p>Systemutviklingsmetoder er strukturerte arbeidsmåter som beskriver hvordan et datasystem skal planlegges, utvikles, testes og leveres fra start til slutt.</p>
+        </section>
+
+        <section>
+            <h2>Utfyllende forklaring</h2>
+            <p>Systemutvikling handler om å lage datasystemer som dekker brukernes behov, fra idé til ferdig løsning. Prosessen inkluderer å kartlegge behov, planlegge, programmere, teste og til slutt levere et system som fungerer som det skal. En slik prosess tar tid og krever godt samarbeid. (Kilde: Dingsøyr, 2024)</p>
+            <p>En systemutviklingsmetode fungerer som en «oppskrift» som forteller hvordan utviklere og organisasjoner skal jobbe. Metodene beskriver fasene i utviklingen, samarbeidet i teamet og hvordan man sikrer god kvalitet. Grunnen til at metoder brukes, er at de skaper struktur og orden i prosjektene. (Kilde: CEGAL, 2025)</p>
+            <p>Metodene bidrar også til at systemet blir testet og evaluert underveis. Dette gjør det enklere å oppdage feil og gjøre forbedringer tidlig. For eksempel gir Scrum jevnlig tilbakemelding på produktet gjennom korte arbeidsperioder. (Kilde: Dingsøyr, 2024)</p>
+            <p>Samarbeid er viktig i alle prosjekter. Utviklere, designere, testere, ledere og brukere må jobbe sammen, og metoder gjør kommunikasjonen tydeligere. Smidige metoder (Agile) er spesielt gode når kravene endrer seg raskt, noe som er vanlig i dagens teknologiutvikling. (Kilde: CEGAL, 2025)</p>
+            <p>Det finnes mange systemutviklingsmetoder, blant annet Agile, Behaviour-Driven Development, Lean Development, Scrum og Waterfall. Disse brukes også i utvikling av nettsider. Disse metodene brukes i mange typer prosjekter, og hver av dem passer til ulike behov og situasjoner. Valg av metode handler om prosjektets størrelse, krav til kvalitet, tid og risiko. (Kilde: GeeksforGeeks, 2024)</p>
+
+            <h3>Kort forklaring av vanlige metoder</h3>
+            <table>
+                <tr><th>Metode</th><th>Forklaring</th><th>Eksempel</th></tr>
+                <tr><td>Fossefallsmodellen (Waterfall)</td><td>Trinnvis utvikling i faste faser.</td><td>Et banksystem som må planlegges helt ferdig før neste steg.</td></tr>
+                <tr><td>Smidig utvikling (Agile)</td><td>Fleksibel metode med korte sprinter og samarbeid.</td><td>App-utvikling der kravene endres underveis.</td></tr>
+                <tr><td>Prototyping</td><td>En enkel modell lages tidlig for å få tilbakemelding.</td><td>Demo av nettbutikk for å teste kundereaksjoner.</td></tr>
+                <tr><td>Spiralmodellen</td><td>Kombinerer prototyper og trinnvis utvikling, fokus på risiko.</td><td>Store prosjekter som forsvarssystemer.</td></tr>
+                <tr><td>V-modellen</td><td>Hver fase har en egen testfase.</td><td>Brukes der kvalitet er kritisk, f.eks. medisinsk utstyr.</td></tr>
+            </table>
+        </section>
+    </main>
+
+    <script>
+        function toggleContent(id) {
+            const el = document.getElementById(id);
+            el.style.display = el.style.display === 'block' ? 'none' : 'block';
+        }
+    </script>
+</body>
+</html>
